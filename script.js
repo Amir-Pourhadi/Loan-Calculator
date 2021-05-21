@@ -1,10 +1,10 @@
 function computeLoan() {
-	var amount = document.getElementById("amount").value;
-	var interest_rate = document.getElementById("interest_rate").value;
-	var months = document.getElementById("months").value;
-	var interest = (amount * (interest_rate * 0.01)) / months;
-	var payment = (amount / months + interest).toFixed(2);
-	payment = payment.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+	const amount = document.getElementById("amount").value;
+	const interestRate = document.getElementById("interestRate").value;
+	const months = document.getElementById("months").value;
 
-	document.getElementById("payment").innerHTML = "Monthly Payment = $" + payment;
+	const interest = (amount * (interestRate * 0.01)) / months;
+	const payment = (amount / months + interest).toFixed(2);
+	const output = payment.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+	document.getElementById("payment").innerText = `Monthly Payment = $${output}`;
 }
