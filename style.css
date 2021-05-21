@@ -1,34 +1,38 @@
-#loancal {
-
-   width: 375px;
-   height:295px;
-   background-color:#000;
-   color:#fff;
-   margin-left:275px;
-   margin-top:95px;
-   padding-left:90px;
-   padding-top:20px;
-
+#loanCal {
+	width: 450px;
+	height: 295px;
+	background-color: rgba(0, 0, 0, 0.85);
+	color: #fff;
+	font-size: 30px;
+	border-radius: 30px;
+	margin: auto;
+	padding-left: 50px;
+	padding-top: 20px;
 }
+
 #months {
-
-	/*margin-left:5px;*/
-	width:175px;
-	height:20px;
+	margin-left: 5px;
+	width: 175px;
+	height: 20px;
 }
+
 #amount {
-
-	width:175px;
-	height:20px;
+	width: 175px;
+	height: 20px;
 }
-#interest_rate {
-	margin-left:2px;
-	width:175px;
-	height:20px;
+
+#interestRate {
+	margin-left: 4px;
+	width: 175px;
+	height: 20px;
 }
-h1{
 
-	font-size:40px;
+h1 {
+	font-size: 40px;
+	margin-top: 0px;
+}
 
-	/*margin-top:0px;*/
+h2 {
+	color: magenta;
+	font-size: 30px;
 }
