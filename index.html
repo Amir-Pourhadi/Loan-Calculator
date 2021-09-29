@@ -1,29 +1,29 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="UTF-8" />
-		<title>Load Calculator</title>
-		<link rel="stylesheet" type="text/css" href="./style.css" />
-	</head>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Load Calculator</title>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+  </head>
 
-	<body>
-		<main id="loanCal">
-			<h1>Loan Calculator</h1>
-			<label for="amount">Loan Amount: $</label>
-			<input id="amount" type="number" min="1" max="5000000" oninput="computeLoan()" />
-			<br />
+  <body>
+    <main id="loanCal">
+      <h1>Loan Calculator</h1>
+      <label for="amount">Loan Amount: $</label>
+      <input id="amount" type="number" min="1" max="5000000" oninput="computeLoan()" />
+      <br />
 
-			<label for="interestRate">Interest Rate: %</label>
-			<input id="interestRate" type="number" min="0" max="100" value="10" step=".1" oninput="computeLoan()" />
-			<br />
+      <label for="interestRate">Interest Rate: %</label>
+      <input id="interestRate" type="number" min="0" max="100" value="10" step=".1" oninput="computeLoan()" />
+      <br />
 
-			<label for="months">Months To Pay: </label>
-			<input id="months" type="number" min="1" max="300" value="1" step="1" oninput="computeLoan()" />
-			<br />
+      <label for="months">Months To Pay: </label>
+      <input id="months" type="number" min="1" max="300" value="1" step="1" oninput="computeLoan()" />
+      <br />
 
-			<h2 id="payment"></h2>
-		</main>
+      <h2 id="payment"></h2>
+    </main>
 
-		<script src="./script.js"></script>
-	</body>
+    <script src="./script.js"></script>
+  </body>
 </html>
